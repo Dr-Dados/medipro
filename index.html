@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/shared.css" />
-    <link rel="stylesheet" href="./assets/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" href="./assets/boxicons/css/boxicons.min.css" />
+    <script src="assets/js/main.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -41,115 +42,66 @@
                     <div class="list-item">
                       <h4 class="title">Gastro-enterologie</h4>
                       <ul>
-                        <?php
-                                          $query2 = "SELECT * FROM `sous_cat` WHERE id_cat=1 and isVisible='yes'";
-                                          $statement = $connect->prepare($query2);
-                        $statement->execute(); $result = $statement->fetchAll();
-                        foreach ($result as $row) { ?>
-                        <li>
-                          <a href="produits.php?id=<?=$row['designation'] ?>"
-                            ><?=utf8_encode($row['sous_cat'])?></a
-                          >
-                        </li>
-                        <?php } 
-                                          ?>
+                        <li><a href="" class="">item1</a></li>
+                        <li><a href="" class="">item2</a></li>
+                        <li><a href="" class="">item3</a></li>
+                        <li><a href="" class="">item4</a></li>
+                        <li><a href="" class="">item5</a></li>
                       </ul>
                     </div>
                     <div class="list-item">
                       <h4 class="title">Stress anxiété et insomnie</h4>
                       <ul>
-                        <?php
-                                          $query2 = "SELECT * FROM `sous_cat` WHERE id_cat=3 and isVisible='yes'";
-                                          $statement = $connect->prepare($query2);
-                        $statement->execute(); $result = $statement->fetchAll();
-                        foreach ($result as $row) { ?>
-                        <li>
-                          <a href="produits.php?id=<?=$row['designation'] ?>"
-                            ><?=utf8_encode($row['sous_cat'])?></a
-                          >
-                        </li>
-                        <?php } 
-                                          ?>
+                        <li><a href="" class="">item1</a></li>
+                        <li><a href="" class="">item2</a></li>
+                        <li><a href="" class="">item3</a></li>
+                        <li><a href="" class="">item4</a></li>
+                        <li><a href="" class="">item5</a></li>
                       </ul>
                       <h4 class="title">Metabolisme et énergie</h4>
                       <ul>
-                        <?php
-                                          $query2 = "SELECT * FROM `sous_cat` WHERE id_cat=4 and isVisible='yes'";
-                                          $statement = $connect->prepare($query2);
-                        $statement->execute(); $result = $statement->fetchAll();
-                        foreach ($result as $row) { ?>
-                        <li>
-                          <a href="produits.php?id=<?=$row['designation'] ?>"
-                            ><?=utf8_encode($row['sous_cat'])?></a
-                          >
-                        </li>
-                        <?php } 
-                                          ?>
+                        <li><a href="" class="">item1</a></li>
+                        <li><a href="" class="">item2</a></li>
+                        <li><a href="" class="">item3</a></li>
+                        <li><a href="" class="">item4</a></li>
+                        <li><a href="" class="">item5</a></li>
                       </ul>
                     </div>
                     <div class="list-item">
                       <h4 class="title">Rhumatologie</h4>
                       <ul>
-                        <?php
-                                          $query2 = "SELECT * FROM `sous_cat` WHERE id_cat=6 and isVisible='yes'";
-                                          $statement = $connect->prepare($query2);
-                        $statement->execute(); $result = $statement->fetchAll();
-                        foreach ($result as $row) { ?>
-                        <li>
-                          <a href="produits.php?id=<?=$row['designation'] ?>"
-                            ><?=utf8_encode($row['sous_cat'])?></a
-                          >
-                        </li>
-                        <?php } 
-                                          ?>
+                        <li><a href="" class="">item1</a></li>
+                        <li><a href="" class="">item2</a></li>
+                        <li><a href="" class="">item3</a></li>
+                        <li><a href="" class="">item4</a></li>
+                        <li><a href="" class="">item5</a></li>
                       </ul>
 
                       <h4 class="title">Gynécologie</h4>
                       <ul>
-                        <?php
-                                          $query2 = "SELECT * FROM `sous_cat` WHERE id_cat=5 and isVisible='yes'";
-                                          $statement = $connect->prepare($query2);
-                        $statement->execute(); $result = $statement->fetchAll();
-                        foreach ($result as $row) { ?>
-                        <li>
-                          <a href="produits.php?id=<?=$row['designation'] ?>"
-                            ><?=utf8_encode($row['sous_cat'])?></a
-                          >
-                        </li>
-                        <?php } 
-                                          ?>
+                        <li><a href="" class="">item1</a></li>
+                        <li><a href="" class="">item2</a></li>
+                        <li><a href="" class="">item3</a></li>
+                        <li><a href="" class="">item4</a></li>
+                        <li><a href="" class="">item5</a></li>
                       </ul>
                     </div>
                     <div class="list-item">
                       <h4 class="title">Système respiratoire et ORL</h4>
                       <ul>
-                        <?php
-                                          $query2 = "SELECT * FROM `sous_cat` WHERE id_cat=2 and isVisible='yes'";
-                                          $statement = $connect->prepare($query2);
-                        $statement->execute(); $result = $statement->fetchAll();
-                        foreach ($result as $row) { ?>
-                        <li>
-                          <a href="produits.php?id=<?=$row['designation'] ?>"
-                            ><?=utf8_encode($row['sous_cat'])?></a
-                          >
-                        </li>
-                        <?php } 
-                                          ?>
+                        <li><a href="" class="">item1</a></li>
+                        <li><a href="" class="">item2</a></li>
+                        <li><a href="" class="">item3</a></li>
+                        <li><a href="" class="">item4</a></li>
+                        <li><a href="" class="">item5</a></li>
                       </ul>
                       <h4 class="title">Dermatologie</h4>
                       <ul>
-                        <?php
-                                          $query2 = "SELECT * FROM `sous_cat` WHERE id_cat=7 and isVisible='yes'";
-                                          $statement = $connect->prepare($query2);
-                        $statement->execute(); $result = $statement->fetchAll();
-                        foreach ($result as $row) { ?>
-                        <li>
-                          <a href="produits.php?id=<?=$row['designation'] ?>"
-                            ><?=utf8_encode($row['sous_cat'])?></a
-                          >
-                        </li>
-                        <?php } 
-                                          ?>
+                        <li><a href="" class="">item1</a></li>
+                        <li><a href="" class="">item2</a></li>
+                        <li><a href="" class="">item3</a></li>
+                        <li><a href="" class="">item4</a></li>
+                        <li><a href="" class="">item5</a></li>
                       </ul>
                     </div>
                   </div>

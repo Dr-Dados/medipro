@@ -49,11 +49,10 @@ h2 > span {
   box-sizing: border-box;
 }
 .container {
-  margin: 0 100px;
+  margin: 0 50px;
 }
 .row {
   display: flex;
-  flex-wrap: wrap;
 }
 .v-center {
   align-items: center;
@@ -338,6 +337,10 @@ section {
 }
 /*responsive*/
 @media (max-width: 1170px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .header .item-center {
     order: 3;
     flex: 0 0 100%;
