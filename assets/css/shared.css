@@ -48,10 +48,10 @@ h2 > span {
 :after {
   box-sizing: border-box;
 }
-.container {
+.header-container {
   margin: 0 50px;
 }
-.row {
+.header-row {
   display: flex;
 }
 .v-center {
@@ -215,12 +215,7 @@ section {
     opacity: 1;
   }
 }
-@media (min-width: 1500pw) {
-  .container {
-    max-width: 900px;
-    margin: auto;
-  }
-}
+
 .header .menu > ul > li .sub-menu > ul > li {
   line-height: 0.5;
 }
@@ -337,7 +332,13 @@ section {
 }
 /*responsive*/
 @media (max-width: 1170px) {
-  .row {
+  .header-container {
+    margin: auto;
+  }
+  .header .logo img {
+    width: 10rem;
+  }
+  .header-row {
     display: flex;
     flex-wrap: wrap;
   }
