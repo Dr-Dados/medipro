@@ -1,0 +1,55 @@
+#products {
+  margin: 3rem;
+}
+#products .top {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  margin-bottom:1rem;
+}
+#products h2 {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Cinzel", serif;
+  color: #2f9c25;
+}
+#products h4 {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Cinzel", serif;
+  margin-top: 10px;
+}
+
+#products h5 {
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+}
+#products h6 {
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #616161;
+  font-family: "Quicksand", sans-serif;
+}
+#products .product-item{
+  margin-bottom:10px;
+}
+#products .card a {
+  transition: color 0.5s ease;
+}
+#products .card:hover a {
+  color: #2f9c25;
+}
+#products .card a .img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+}
+#products .card a img {
+  width: 80%;
+  margin:auto;
+}

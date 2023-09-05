@@ -1,0 +1,336 @@
+/*--------------------------------------------------------------
+#  products Section
+--------------------------------------------------------------*/
+.products-section {
+  margin: 2rem 0;
+  position: relative;
+}
+.products-section .header {
+  display: flex;
+  justify-content: center;
+}
+.products-section h2 {
+  font-size: 35px;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+.leafimg {
+  position: absolute;
+  width: 80px;
+  top: 0;
+}
+.leaf2 {
+  right: 0;
+}
+.products-section h2 span {
+  color: #2f9c25;
+  font-weight: 500;
+}
+
+.products-section h6 {
+  margin-top: 0.3125rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 300;
+  color: #606060;
+}
+
+.product-item .card {
+  transition: 0.5s ease;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.product-item .card:hover {
+  box-shadow: 16px 28px 30px -5px rgba(0, 0, 0, 0.1);
+}
+.new {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: #616161;
+  background-color: transparent;
+  border: 1px solid #616161;
+  border-radius: 20px;
+  padding: 2px 8px;
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  font-weight: 500;
+}
+
+@media (max-width: 712px) {
+  .products-section h2 {
+    font-size: 23px;
+  }
+}
+
+/*--------------------------------------------------------------
+#  About Section
+--------------------------------------------------------------*/
+#about {
+  background-color: aliceblue;
+}
+#about h2 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Cinzel", serif;
+  margin-bottom: 10px;
+}
+#about h2 span {
+  color: #2f9c25;
+}
+#about .body {
+  display: flex;
+  justify-content: center;
+}
+#about img {
+  width: 100%;
+  border-radius: 20px;
+}
+#about img:before {
+  content: "";
+  border: 1px solid #333333;
+  margin: 10px 10px 0 0;
+}
+#about .body .body-text {
+  margin: 50px 0;
+}
+#about .body .body-text p {
+  margin: 20px 0;
+  line-height: 30px;
+}
+#about .body .body-text button {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  #about .body .body-text {
+    margin: 20px 20px;
+    padding: 0 50px;
+  }
+}
+
+#about2 {
+  background-color: #f1f4f9;
+}
+#about2 h2 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Cinzel", serif;
+  margin-bottom: 10px;
+}
+#about2 h6 span {
+  color: #2f9c25;
+}
+#about2 .body {
+  display: flex;
+  justify-content: center;
+}
+#about2 .img-container {
+  text-align: center;
+}
+#about2 img {
+  width: 65%;
+  border-radius: 20px;
+}
+#about2 img:before {
+  content: "";
+  border: 1px solid #333333;
+  margin: 10px 10px 0 0;
+}
+#about2 .body .body-text {
+  margin: 50px 0;
+  padding: 0 34px;
+}
+#about2 .body .body-text p {
+  margin: 20px 0;
+  line-height: 30px;
+}
+#about2 .body .body-text button {
+  text-align: center;
+}
+button:hover a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  #about2 .body .body-text {
+    margin: 20px 20px;
+    padding: 0 50px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Entreprise
+--------------------------------------------------------------*/
+.button-Entreprise {
+  background-color: #50b614;
+  border-color: #50b614;
+  animation: all 0.5;
+  color: white;
+}
+#Entreprise .row {
+  margin-bottom: 2rem;
+}
+#Entreprise .Header-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#Entreprise .Header-section img {
+  width: 100%;
+}
+
+#Entreprise .Entreprise-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  position: relative;
+}
+
+#Entreprise .Entreprise-content h1 {
+  color: black;
+  font-size: 65px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: "Cinzel";
+}
+
+#Entreprise .Entreprise-content h1 span {
+  color: #50b614;
+  line-height: 30px;
+  text-align: center;
+  position: relative;
+}
+
+#Entreprise .body-content p {
+  color: black;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+#Entreprise .body-content p .thera {
+  font-weight: 600;
+}
+
+#Entreprise .body-content h2 {
+  color: black;
+  font-size: 35px;
+  margin: 30px 15px;
+  font-family: "Cinzel";
+}
+#Entreprise .body-content h2 span {
+  color: #50b614;
+  font-size: 50px;
+  line-height: 30px;
+  font-family: "Cinzel";
+  margin-bottom: 15px;
+}
+
+#Entreprise .Entreprise-btn button {
+  background-color: #50b614;
+  border-color: #50b614;
+  animation: all 0.5;
+}
+
+#Entreprise .Entreprise-btn .btn-text {
+  font-size: 18px;
+  font-weight: 600;
+}
+#Entreprise .offre-box {
+  border: 0.5px solid rgb(180, 180, 180);
+  padding: 20px 15px;
+  border-radius: 10px;
+}
+#Entreprise .Entreprise-btn {
+  text-align: end;
+}
+#Entreprise img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+@media (max-width: 689px) {
+  .aboutBanner {
+    display: none;
+  }
+  #Entreprise .body-content h2 {
+    font-size: 25px;
+  }
+  #Entreprise .Entreprise-content h1 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Cinzel";
+  }
+  #Entreprise .body-content p {
+    color: black;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 15px;
+    font-weight: 300;
+  }
+}
+
+#newest-photos {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #f1f1f1;
+}
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  cursor: pointer;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.mySlides {
+  display: none;
+}
+#newest-photos img {
+  vertical-align: middle;
+}
